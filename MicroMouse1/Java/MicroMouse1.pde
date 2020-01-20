@@ -19,7 +19,7 @@ void setup() {
 }
 
 void loadMaze() {
-	BufferedReader reader = createReader("../CreatedMazes/Maze8.txt");
+	BufferedReader reader = createReader("data/Maze8.txt");
 	String line = null;
 	int cellCounter = 0;
 	int wallCounter = 0;
